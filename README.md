@@ -43,4 +43,4 @@ JavaScript · TypeScript · React · Swift · Python · Figma · Framer · Tilda
 
 Available for client work in AI product engineering, design automation, creative tooling, and production audits.
 
-[Start with a non-confidential project brief](https://github.com/IMONsergey/IMONsergey/issues/new) describing the outcome, current workflow, and desired timeline. Sensitive details can move to a private channel after initial contact.
+[Start with a non-confidential project brief](https://github.com/IMONsergey/IMONsergey/issues/new?template=client-inquiry.yml) describing the outcome, current workflow, and desired timeline. Sensitive details can move to a private channel after initial contact.
