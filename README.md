@@ -2,45 +2,95 @@
 
 # Sergei I'MON
 
-### AI Product Engineer · Design Automation · Production Systems
+### AI Product Engineer · Creative Systems Architect
 
-I turn complex creative workflows into reliable products — from Figma, Framer, and Tilda automation to AI-assisted production systems and measurable visual QA.
+**From design intent to production systems**
 
-[Selected work](#selected-work) · [How I work](#how-i-work) · [Work with me](#work-with-me)
+I build at the intersection of product strategy, design, automation, and software engineering. My work goes beyond isolated screens or features: I shape how a product is specified, built, validated, shipped, observed, and maintained.
 
 </div>
 
-## What I build
+## Profile
 
-- **AI product systems** — prototypes and internal tools designed for real production use.
-- **Design automation** — Figma, Framer, Tilda, typography, and asset workflows.
-- **Creative engineering** — agent workflows, visual QA, and repeatable delivery pipelines.
-- **Product audits** — practical diagnosis of UX, implementation, reliability, and release readiness.
+I work with complex digital products where creative ambition has to survive real technical constraints. That includes AI-native tools, design automation, production interfaces, internal platforms, publishing systems, infrastructure, and operational workflows.
 
-## Selected work
+My experience spans the full delivery cycle: discovery, research, architecture, prototyping, implementation, quality assurance, deployment, observability, documentation, and handoff. I am equally comfortable working at the product layer, inside a design system, in application code, or at the infrastructure boundary where reliability and security become decisive.
 
-| Project | What it demonstrates |
+## Experience
+
+### AI-native product engineering
+
+I design systems in which AI is part of the product architecture rather than a decorative feature. This includes agent workflows, structured tool use, reusable skills, prompt and context systems, persistent project memory, provider routing, evaluation, provenance, safety gates, and human review loops.
+
+I have built and refined CLI tools, local studios, MCP integrations, automation pipelines, research workers, and production workflows that connect creative intent with deterministic checks. A recurring focus is making AI-assisted work inspectable: inputs are explicit, outputs are traceable, costs and side effects are bounded, and success is supported by evidence.
+
+### Design engineering and creative technology
+
+I translate visual systems into reliable digital behavior across Figma, Framer, Tilda, and production frontends. The work includes design tokens, typography, responsive composition, reusable components, animation, asset pipelines, interactive brand systems, and pixel-sensitive implementation.
+
+I treat visual quality as an engineering discipline. Layout, breakpoints, overflow, loading behavior, accessibility, motion timing, image decoding, and browser state are tested rather than assumed. The goal is not simply to reproduce a reference, but to preserve its hierarchy, intent, and consistency as the product evolves.
+
+### Product interfaces and application development
+
+My implementation experience includes TypeScript, JavaScript, React, Vite, Node.js, Python, Swift, HTML, CSS, and focused PHP integrations. I work across browser applications, macOS interfaces, internal tools, content systems, forms, analytics, APIs, and automation layers.
+
+I am used to inheriting imperfect systems: diagnosing architecture, reducing ambiguity, preserving existing behavior, and delivering changes in small reviewable increments. I separate prototype quality from production readiness and make the transition between them explicit.
+
+### Platforms, infrastructure, and operations
+
+I work with VPS environments, Dockerized services, PostgreSQL, SQLite and libSQL, reverse proxies, domains, HTTPS, Cloudflare, GitHub Pages, scheduled jobs, backups, network diagnostics, and privacy-sensitive integrations.
+
+Operational work is approached with the same product discipline as interface work: establish the actual state first, isolate the failure domain, protect credentials and customer data, validate the change, and leave behind a system that can be understood and maintained.
+
+### Quality, release engineering, and technical due diligence
+
+I build release confidence through repository hygiene, branch and pull-request workflows, CI checks, security scanning, testable acceptance criteria, visual QA, browser smoke checks, performance checks, and explicit deployment verification.
+
+I also audit unfamiliar products and data systems. The method is evidence-first: distinguish what was discovered from what was accessed, what was captured from what was parsed, and what was observed from what can responsibly be claimed. This is especially important in client work, infrastructure, analytics, and research-heavy products.
+
+### Research and product decision support
+
+My work often begins before implementation. I map source quality, compare official documentation with community knowledge, inspect real product constraints, evaluate alternatives, and turn the result into an actionable system rather than a static report.
+
+I have applied this approach to creative-production tooling, product architecture, load testing, data quality, provider evaluation, design-system reconstruction, and operational risk. Research is useful only when it improves a decision, a workflow, or the reliability of delivery.
+
+## Delivery scope
+
+| Stage | Practical contribution |
 |---|---|
-| [Seedance Porter](https://github.com/IMONsergey/Seedance-Porter) | Production toolkit and prompt-intelligence layer for AI video workflows. |
-| [GPT → Figma](https://github.com/IMONsergey/gpttofigma) | Fidelity-first pipeline for turning visual references into editable Figma layouts with measurable QA. |
-| [VibeOS 2](https://github.com/IMONsergey/vibe-monument) | Codex-native engineering operating system for risk-routed, evidence-driven delivery. |
-| [Framer Connector](https://github.com/IMONsergey/framerconnector) | Reliable Framer workspace connection, diagnostics, and release workflows. |
-| [ONOD Fonts](https://github.com/IMONsergey/onod-fonts) | TypeScript font catalog focused on discovery, preview, and contribution quality. |
-| [SuperDictate](https://github.com/IMONsergey/SuperDictate) | Contributor work on a fast, private, local dictation app for Apple Silicon Macs. |
+| Discovery | Clarify the real objective, constraints, users, risks, and evidence available. |
+| Architecture | Define system boundaries, data flows, integrations, failure modes, and review gates. |
+| Prototype | Turn the concept into a working, inspectable experience without hiding unresolved assumptions. |
+| Implementation | Build interfaces, tools, integrations, automation, and supporting infrastructure. |
+| Verification | Test behavior, visual fidelity, accessibility, performance, data integrity, and operational state. |
+| Release | Prepare documentation, CI, deployment, rollback awareness, and verifiable handoff. |
+| Evolution | Preserve context, measure what matters, reduce fragility, and make the next iteration easier. |
 
-## How I work
+## Technical range
 
-- **Evidence before claims.** I verify what is connected, tested, previewed, and published.
-- **Real product context.** Design decisions start from the actual system, audience, and constraints.
-- **Reviewable delivery.** Small changes, clear documentation, and explicit release checks.
-- **Security by default.** Credentials, customer data, and private infrastructure stay out of public code.
+| Area | Technologies and practices |
+|---|---|
+| Product engineering | TypeScript, JavaScript, React, Vite, Node.js, Python, Swift |
+| Design systems | Figma, Framer, Tilda, responsive UI, typography, motion, visual QA |
+| AI systems | OpenAI Codex, agent workflows, MCP, prompt systems, evaluation, provenance |
+| Data and backend | PostgreSQL, SQLite, libSQL, APIs, schema inspection, safe migrations |
+| Infrastructure | Docker, VPS operations, Cloudflare, GitHub Pages, domains, HTTPS, networking |
+| Delivery | GitHub, CI/CD, release checks, security scanning, documentation, observability |
 
-## Core toolkit
+## Operating principles
 
-JavaScript · TypeScript · React · Swift · Python · Figma · Framer · Tilda · OpenAI Codex
+- **Evidence before claims.** Connected, tested, previewed, and published are different states.
+- **Design integrity.** The real system, audience, and constraints come before generic polish.
+- **Security by default.** Credentials, personal data, customer records, and private infrastructure remain protected.
+- **Reviewable progress.** Small, intentional changes are easier to verify, maintain, and trust.
+- **Operational realism.** A product is not complete until its failure modes, deployment, and ownership are understood.
+- **Durable context.** Decisions, assumptions, and verification evidence should survive beyond a single session.
 
-## Work with me
+## Current direction
 
-Available for client work in AI product engineering, design automation, creative tooling, and production audits.
+I am focused on AI-assisted products for creative and technical teams, design automation that preserves fidelity, and production systems that combine strong interfaces with disciplined engineering. The common thread is turning complex, high-context work into tools that are clear, reliable, and genuinely useful.
 
-[Start with a non-confidential project brief](https://github.com/IMONsergey/IMONsergey/issues/new?template=client-inquiry.yml) describing the outcome, current workflow, and desired timeline. Sensitive details can move to a private channel after initial contact.
+
+---
+
+For structured, non-confidential project inquiries, use the [project brief form](https://github.com/IMONsergey/IMONsergey/issues/new?template=client-inquiry.yml).
