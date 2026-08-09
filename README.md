@@ -90,6 +90,20 @@ I have applied this approach to creative-production tooling, product architectur
 
 I am focused on AI-assisted products for creative and technical teams, design automation that preserves fidelity, and production systems that combine strong interfaces with disciplined engineering. The common thread is turning complex, high-context work into tools that are clear, reliable, and genuinely useful.
 
+## Field notes
+
+I publish concise technical notes on the operating principles behind my work: how AI systems stay truthful, how design fidelity becomes measurable, and how prototypes cross into reliable production.
+
+| Note | Focus |
+|---|---|
+| [Evidence Before Output](./field-notes/evidence-before-output.md) | Provenance, state, verification, and responsible claims in AI systems |
+| [Design Fidelity Is an Engineering Discipline](./field-notes/design-fidelity-is-engineering.md) | Turning visual intent into measurable implementation work |
+| [The Prototype-to-Production Boundary](./field-notes/prototype-to-production.md) | What production must prove beyond a convincing prototype |
+| [Visual QA as Release Engineering](./field-notes/visual-qa-as-release-engineering.md) | Browser evidence, responsive states, and public-release verification |
+| [Private by Design](./field-notes/private-by-design.md) | Safe automation around credentials, personal data, and client context |
+| [Platform-Native First](./field-notes/platform-native-first.md) | Choosing when to automate inside a platform, export it, or rebuild |
+
+[Browse the complete field notes index](./field-notes/README.md)
 
 ---
 
