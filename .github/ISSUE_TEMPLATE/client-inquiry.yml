@@ -1,0 +1,54 @@
+name: Client project inquiry
+description: Start a non-confidential conversation about a potential project.
+title: "[Project] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. Share only non-confidential context here.
+        Do not include credentials, personal data, client secrets, or unpublished assets.
+
+  - type: dropdown
+    id: project-type
+    attributes:
+      label: Project type
+      options:
+        - AI product engineering
+        - Design automation
+        - Creative tooling
+        - Product or implementation audit
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should be true when the project is successful?
+      placeholder: Describe the business or product outcome, not only the feature list.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-workflow
+    attributes:
+      label: Current workflow and constraints
+      description: Briefly describe the current process, tools, users, and known constraints.
+    validations:
+      required: true
+
+  - type: input
+    id: timeline
+    attributes:
+      label: Desired timeline
+      placeholder: For example, discovery this month and a working prototype in six weeks.
+    validations:
+      required: true
+
+  - type: textarea
+    id: success-evidence
+    attributes:
+      label: How we will verify success
+      description: List the evidence, metrics, checks, or deliverables that should confirm completion.
+      placeholder: For example, tested workflow, visual QA, deployment evidence, and handoff documentation.
